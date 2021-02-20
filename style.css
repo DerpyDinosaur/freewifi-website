@@ -1,0 +1,87 @@
+/*
+
+COLOURS Light / Dark
+GREEN
+#39e47e = rgb(57, 228, 126)
+#207f46 = rgb(32, 127, 70)
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+html{
+	padding: 2em;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	text-align: center;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+@media only screen and (min-width: 800px) {
+	main{
+		margin: auto 33%;	
+	}
+}
+
+/***************************************/
+
+.loginHeader{
+	margin: 2em 0 0 0;
+}
+
+form{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 2em 0 0 0;
+}
+
+form *{
+	margin: 0 0 1em 0;
+}
+
+form input, form button{
+	font-size: 1.5em !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
