@@ -23,16 +23,16 @@
 </head>
 <body>
 	<header>
-		<h1 style="color: red;">The Universal Bank</h1>
+		<h1 style="color: #e43939;">The Universal Bank</h1>
 	</header>
 	<main>
-		<h2 class="loginHeader">Login Page</h2>
+		<h2 class="loginHeader" style="color: #e43939;">Login Page</h2>
 		<form>
 			<h4>Username</h4>
 			<input class="form-control" type="text" name="username">
 			<h4>Password</h4>
 			<input class="form-control" type="text" name="password">
-			<button class='btn btn-success' type='submit'>Sign Up</button>
+			<button class='btn btn-danger' type='submit'>Sign Up</button>
 		</form>
 	</main>
 </body>
